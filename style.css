@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;
+}
+
+.container{
+    display: block;
+    background-color: aqua;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+
+.squerWhite{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.2s;
+    
+}
+
+.squerWhite:active, .squerWhite:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.squerWhite:checked {
+	background-color: white;
+	border: 1px solid #adb8c0;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+.squerBlack{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+.squerBlack:active, .squerBlack:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.squerBlack:checked {
+	background-color: gray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+.squertwo{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border: 7px solid white;
+    border-radius: 0;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+.squertwo:active, .squertwo:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.squertwo:checked {
+	background-color: gray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+.squerone{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border: 7px solid white;
+    border-radius: 0;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+.squerone:active, .squerone:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.squerone:checked {
+	background-color: gray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+.roundedtwo{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border: 7px solid white;
+    border-radius: 100%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+.roundedtwo:active, .roundedtwo:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.roundedtwo:checked {
+	background-color: gray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+.roundedone{
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border: 7px solid white;
+    border-radius: 100%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+.roundedone:active, .roundedone:checked:active {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.roundedone:checked {
+	background-color: gray;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	color: black;
+    background-image: url(checkmark.png);
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: -2px;
+    bottom: -7px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(36px);
+    -ms-transform: translateX(36px);
+    transform: translateX(36px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+  .switch2 {
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(24, 24, 24);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+  .slider2:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 8px solid white;
+}
+
+
+input:checked + .slider2 {
+    background-color: #505050;
+  }
+  
+  input:focus + .slider2 {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider2:before {
+    -webkit-transform: translateX(65px);
+    -ms-transform: translateX(65px);
+    transform: translateX(65px);
+  }
+  
+  .slider2.round {
+    border-radius: 34px;
+  }
+  
+  .slider2.round:before {
+    border-radius: 50%;
+  }
+
+.test{
+    width: 50px;
+    height: 4px;
+    background-color: black ;
+    border-radius: 20px;
+}
+
+
+
+.switch3 {
+    position: relative;
+    display: flex;
+    width: 170px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch3 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(138, 138, 138);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+  .slider3:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 80px;
+    left: 4px;
+    bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+
+input:checked + .slider3 {
+    background-color: #7a7a7a;
+  }
+  
+  input:focus + .slider3 {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider3:before {
+    -webkit-transform: translateX(82px);
+    -ms-transform: translateX(82px);
+    transform: translateX(82px);
+  }
+  
+  .slider3.round {
+    border-radius: 34px;
+  }
+  
+  .slider3.round:before {
+    border-radius: 50%;
+  }
+
+h1{
+    padding: 8px;
+    size: 12px;
+}
